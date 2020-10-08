@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6726592169667323382}
-  - component: {fileID: 4052304233798392006}
+  - component: {fileID: 872924193795086680}
   m_Layer: 0
   m_Name: InitGridWithSQLServerData
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4052304233798392006
+--- !u!114 &872924193795086680
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,23 +40,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 6726592169667323380}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a36ca861abd3f00459293d31cd01b6cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 730232fa311b0c94e8aecfb523f0fc06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   contentGameObjectOfControl: {fileID: 0}
   genericHeaderItems: 0
   genericRowItems: 0
-  prefabGenericEmptyGameObject: {fileID: 8978221288666973978, guid: cad8023197a4ab34285acf54c5a7b5b8,
-    type: 3}
-  prefabGenericText: {fileID: 7031395482241649492, guid: ead2fd57374bed3488ff866badc92fd2,
-    type: 3}
-  prefabCustomHeaderListItem: {fileID: 316083745034789506, guid: 4372688df38b1bb42bab7bf67a5394a4,
-    type: 3}
-  prefabCustomRowListItem: {fileID: 4582774210138033920, guid: 23da372711c737949bc1e7cada66ea4b,
-    type: 3}
-  dataSource: {fileID: 6854020488725703356, guid: 2b4e0ae9f0de0fc44810ed7d9c28137c,
-    type: 3}
-  gridTitle: Recipes
+  prefabGenericEmptyGameObject: {fileID: 8978221288666973978, guid: 5a7ac0f36f70dae4db9839655467c6bd, type: 3}
+  prefabGenericText: {fileID: 7031395482241649492, guid: 7e7a5665f623b7045bef49fd5158a546, type: 3}
+  prefabCustomHeaderListItem: {fileID: 316083745034789506, guid: 920707f4bad040444bb878b390f7bbbc, type: 3}
+  prefabCustomRowListItem: {fileID: 4582774210138033920, guid: 37e48c36e50996d49adce244640daa11, type: 3}
+  dataSource: {fileID: 1393634713002813065, guid: 0bdf0f17c9493f045ad4d44e279e9284, type: 3}
+  gridTitle: SQL Server Recipes
   margins:
     leftMargin: 5
     rightMargin: 5
