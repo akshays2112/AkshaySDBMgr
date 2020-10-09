@@ -8,7 +8,7 @@ namespace PostgreSQLUnityLib
 
         public void InitializeMySqlConn(PostgreSQLConnProps props)
         {
-            postgreSQLConnection = new NpgsqlConnection($"Server={props.serverName};Database={props.databaseName};User={props.userID};Password={props.password};TreatTinyAsBoolean=true;");
+            postgreSQLConnection = new NpgsqlConnection($"Host={props.serverName};Database={props.databaseName};Username={props.userID};Password={props.password}");
         }
 
         public void ConnectToMySQL()

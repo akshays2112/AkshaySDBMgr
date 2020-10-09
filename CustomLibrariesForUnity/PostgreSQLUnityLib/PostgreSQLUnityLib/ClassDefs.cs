@@ -5,9 +5,9 @@ namespace PostgreSQLUnityLib
     [Serializable]
     public class PostgreSQLConnProps
     {
-        public string serverName = "192.168.29.251";
+        public string serverName = "127.0.0.1";
         public string databaseName = "akshaysdemodb";
-        public string userID = "akshays";
+        public string userID = "postgres";
         public string password = "P@ssword123";
     }
 

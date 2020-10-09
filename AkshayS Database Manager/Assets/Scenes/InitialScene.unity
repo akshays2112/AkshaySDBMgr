@@ -124,7 +124,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &21789834
+--- !u!1001 &249290372
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -229,7 +229,7 @@ PrefabInstance:
     - target: {fileID: 3150068861138330531, guid: 7d87bdde8f1601d41aafbdcca39c45d5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3150068861138330531, guid: 7d87bdde8f1601d41aafbdcca39c45d5,
         type: 3}
@@ -249,7 +249,7 @@ PrefabInstance:
     - target: {fileID: 3150068861138330531, guid: 7d87bdde8f1601d41aafbdcca39c45d5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 110
+      value: -110
       objectReference: {fileID: 0}
     - target: {fileID: 3150068861138330531, guid: 7d87bdde8f1601d41aafbdcca39c45d5,
         type: 3}
@@ -515,7 +515,7 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
---- !u!1001 &964306752
+--- !u!1001 &1947498540
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -560,7 +560,7 @@ PrefabInstance:
     - target: {fileID: 3150068861138330531, guid: 043e0ae6c5d9c76409c69db473620443,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3150068861138330531, guid: 043e0ae6c5d9c76409c69db473620443,
         type: 3}
@@ -580,7 +580,7 @@ PrefabInstance:
     - target: {fileID: 3150068861138330531, guid: 043e0ae6c5d9c76409c69db473620443,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -110
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 3150068861138330531, guid: 043e0ae6c5d9c76409c69db473620443,
         type: 3}
